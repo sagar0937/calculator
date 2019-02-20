@@ -20,7 +20,7 @@ function calculateIntrest(e) {
   
 
   if(isFinite(monthly)) {
-      
+
     document.querySelector('#loading').style.display = 'block';
     document.querySelector('#results').style.display = 'none';
 
@@ -55,4 +55,5 @@ function showError(msg){
     setTimeout(function(){
        document.querySelector('.alert').remove();
     },3000)
+    
 }
